@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    border-style:solid;
+    border-width: 1%;
+    border-color: black;
+    border-radius: 10px;
+    width: 18%;
+    padding: 10px;
+    background-color: purple;
+    margin-left: 40%;
+    margin-top: 5%;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+.btn{
+    padding: 6%;
+    font-size: 30px;
+    background-color: rgb(66, 33, 97);
+    color: white;
+}
+.btn-cont{
+    margin-left: 8%;
+}
+#inp{
+    width: 80%;
+    height: 30px;
+    margin-left: 6%;
+    font-size: 25px;
+}
+.clr{
+    font-size: 25px;
+    margin-left: 7%;
+    padding: 1%;
+    /* border-radius: 10px; */
+    padding: 0% 3% 0% 3%;
+    background-color: rgb(255, 106, 26);
+    color: rgb(13, 4, 4);
+}
+.btn-{
+    padding: 6%;
+    font-size: 30px;
+    background-color: rgb(66, 33, 97);
+    color: white;
+    padding-left: 9%;
+}
+.btn1{
+    padding: 6%;
+    font-size: 30px;
+    background-color: rgb(213, 255, 62);
+    color: rgb(0, 0, 0);
+    padding-left: 9%;
+}
+.btn2{
+    padding: 6%;
+    font-size: 30px;
+    background-color: rgb(213, 255, 62);
+    color: rgb(22, 8, 8);
+    padding-left: 8.5%;
+}
+.btn3{
+    padding: 6%;
+    font-size: 30px;
+    background-color: rgb(66, 33, 97);
+    color: rgb(252, 249, 249);
+    padding-left: 9%;
+}
+.btn4{
+    padding: 6%;
+    font-size: 30px;
+    background-color: rgb(213, 255, 62);
+    color: rgb(14, 4, 4);
+    padding-left: 5.5%;
+}
+.btn5{
+    padding: 6%;
+    font-size: 30px;
+    background-color: rgb(213, 255, 62);
+    color: rgb(22, 8, 8);
+    
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 10%;
+        padding: 20px;
+    }
+    
+    #inp {
+        width: 90%;
+        font-size: 20px;
+        margin-left: 5%;
+        height: 40px;
+    }
+    
+    .btn, .btn1, .btn2, .btn3, .btn4, .btn5 {
+        width: 20%;
+        padding: 10px;
+        font-size: 20px;
+        margin: 5px 2px;
+    }
+    
+    .btn-cont {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .clr {
+        font-size: 18px;
+        margin: 5px;
+        padding: 8px 15px;
+        display: inline-block;
+    }
+}
